@@ -28,7 +28,7 @@ pipeline {
         }
         stage('Completed double OK') {
             steps {
-                sh 'testing after a long time '
+                sh 'echo testing after a long time '
             }
         }
     }
